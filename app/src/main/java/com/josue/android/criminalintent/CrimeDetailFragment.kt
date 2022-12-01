@@ -1,4 +1,4 @@
-package com.bignerdranch.android.criminalintent
+package com.josue.android.criminalintent
 
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -22,7 +22,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.bignerdranch.android.criminalintent.databinding.FragmentCrimeDetailBinding
+import com.josue.android.criminalintent.databinding.FragmentCrimeDetailBinding
 import kotlinx.coroutines.launch
 import java.io.File
 import java.util.Date
@@ -105,7 +105,7 @@ class CrimeDetailFragment : Fragment() {
                 )
                 val photoUri = FileProvider.getUriForFile(
                     requireContext(),
-                    "com.bignerdranch.android.criminalintent.fileprovider",
+                    "com.josue.android.criminalintent.fileprovider",
                     photoFile
                 )
 

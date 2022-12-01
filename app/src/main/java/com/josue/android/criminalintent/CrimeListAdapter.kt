@@ -1,10 +1,10 @@
-package com.bignerdranch.android.criminalintent
+package com.josue.android.criminalintent
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bignerdranch.android.criminalintent.databinding.ListItemCrimeBinding
+import com.josue.android.criminalintent.databinding.ListItemCrimeBinding
 import java.util.UUID
 
 class CrimeHolder(

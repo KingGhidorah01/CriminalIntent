@@ -1,10 +1,10 @@
-package com.bignerdranch.android.criminalintent
+package com.josue.android.criminalintent
 
 import android.content.Context
 import androidx.room.Room
-import com.bignerdranch.android.criminalintent.database.CrimeDatabase
-import com.bignerdranch.android.criminalintent.database.migration_1_2
-import com.bignerdranch.android.criminalintent.database.migration_2_3
+import com.josue.android.criminalintent.database.CrimeDatabase
+import com.josue.android.criminalintent.database.migration_1_2
+import com.josue.android.criminalintent.database.migration_2_3
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.flow.Flow

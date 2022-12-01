@@ -1,10 +1,10 @@
-package com.bignerdranch.android.criminalintent.database
+package com.josue.android.criminalintent.database
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import com.bignerdranch.android.criminalintent.Crime
+import com.josue.android.criminalintent.Crime
 import kotlinx.coroutines.flow.Flow
 import java.util.UUID
 

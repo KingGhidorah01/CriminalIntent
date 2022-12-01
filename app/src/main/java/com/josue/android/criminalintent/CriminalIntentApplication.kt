@@ -1,4 +1,4 @@
-package com.bignerdranch.android.criminalintent
+package com.josue.android.criminalintent
 
 import android.app.Application
 

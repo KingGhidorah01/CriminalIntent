@@ -1,4 +1,4 @@
-package com.bignerdranch.android.criminalintent
+package com.josue.android.criminalintent
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

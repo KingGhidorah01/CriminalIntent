@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/crimeListFragment"
-        android:name="com.bignerdranch.android.criminalintent.CrimeListFragment"
+        android:name="com.josue.android.criminalintent.CrimeListFragment"
         android:label="CrimeListFragment"
         tools:layout="@layout/fragment_crime_list">
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/crimeDetailFragment"
-        android:name="com.bignerdranch.android.criminalintent.CrimeDetailFragment"
+        android:name="com.josue.android.criminalintent.CrimeDetailFragment"
         android:label="CrimeDetailFragment"
         tools:layout="@layout/fragment_crime_detail" >
         <argument
@@ -28,7 +28,7 @@
     </fragment>
     <dialog
         android:id="@+id/datePickerFragment"
-        android:name="com.bignerdranch.android.criminalintent.DatePickerFragment"
+        android:name="com.josue.android.criminalintent.DatePickerFragment"
         android:label="DatePickerFragment" >
         <argument
             android:name="crimeDate"
